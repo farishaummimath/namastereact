@@ -1,10 +1,12 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 const parent = React.createElement(
     'div',
     { id: 'parent' },
     React.createElement(
         'h1',
         null,
-        'Parent'
+        'This is nested - React Element 🚀'
     ),
     React.createElement(
         'div',
@@ -12,7 +14,7 @@ const parent = React.createElement(
         React.createElement(
             'h2',
             null,
-            'Child'
+            'This is child-sibling'
         )
     ),
     React.createElement(
