@@ -1,23 +1,31 @@
 # Namaste React 🚀
 
+## Brief about this repo
+This repository contains the source code and assignments for the Namaste React course. It covers various aspects of React development, including setting up a development environment with Parcel, optimizing builds, and handling errors effectively.
+
 # Parcel
 - Dev build
-- local server
+- Local server
 - HMR - hot module replacement
-- File watching alogorithm , written in C++
+- File watching algorithm, written in C++
 - Caching - faster builds
-- Image Optimisation
-- Bundle Files
+- Image optimization
+- Bundle files
 - Minification
 - Compressing
-- Consistent Hashing
+- Consistent hashing
 - Code splitting
-- differential bundling - support older browsers
-- Tree Shaking - remove unused code
+- Differential bundling - support older browsers
+- Tree shaking - remove unused code
 - HTTPS - on dev
-- Port Number
-- Zero Config
+- Port number
+- Zero config
 - Error handling
-- Transitive Dependencies
+- Transitive dependencies
 - Diagnostics - beautiful error 
-- different build for dev and prod
+- Different build for dev and prod
+
+## Related Assignments
+- [Assignment 1](./episode1Assignment.md)
+- [Assignment 2](./episode2Assignment.md)
+- [Assignment 3](./episode3Assignment.md)
