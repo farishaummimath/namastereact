@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -59,4 +59,50 @@ footer {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.logo {
+    width: 200px;
+}
+.nav-container {
+    padding: 0px 20px;
+}
+.nav-container > ul {
+    font-size: 24px;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-container >ul >li {
+    padding: 10px;
+    margin: 10px;
+}
+.restaurant-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.restaurant-card {
+    width: 200px;
+    height: 350px;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #eae2e2;
+}
+.restaurant-card:hover {
+    cursor: pointer;
+    border: 2px solid #4CAF50;
+}
+.search {
+    padding: 10px;
+}
+.restaurant-image {
+    width: 100%;
 }
